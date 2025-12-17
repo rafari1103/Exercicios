@@ -1,0 +1,16 @@
+body {
+    background:rgba(216, 164, 237, 0.17);
+    font : normal 20pt arial;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+input[type="button"] {
+  width: 450px;      
+  height: 50px;      
+  font-size: 25px; 
+  margin: 5px;
+}
