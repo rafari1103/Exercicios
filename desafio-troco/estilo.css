@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(214, 251, 214);
+}
+
+h1 {
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 15pt
+}
+
+div{
+    text-align: center;
+    background-color: black;
+}
