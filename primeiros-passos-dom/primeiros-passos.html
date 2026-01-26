@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiros passos DOM</title>
+    <style>
+        div {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
   <h1>Primeiros passos no DOM</h1>  
   <p>Estou fazendo essa página para demonstrar os meus primeiros passos nos estudos do DOM (Document Object Model). Fiquei impressionada com a variedade de alterações que conseguimos fazer, utilizando o JS.</p>
   <p>Entendi que com o Dom, é possível alterar textos, cores, estilos e muito mais.</p>
-  <div>
+  <div id ='inf'>
     Área de Informações
   </div>
 </body>
+    <script>
+        let p1 = document.getElementsByTagName('p')[0]
+        p1.innerText = 'Esta página foi criada para registrar meus primeiros passos no estudo do DOM (Document Object Model). Durante esse aprendizado, fiquei impressionada com a variedade de alterações que podem ser feitas utilizando JavaScript.'
+        let p2 = document.getElementsByTagName ('p') [1]
+        p2.innerHTML = 'Com o <strong>DOM</strong>, é possível modificar textos, cores, estilos e diversos outros elementos da página.'//praticando as posições das tags []
+        let i = document.getElementById('inf')
+        i.style.background = 'red' // alterando o fundo da div
+    </script>
 </html>
