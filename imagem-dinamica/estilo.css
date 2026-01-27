@@ -3,3 +3,8 @@ body{
     font: normal 15pt arial;
     text-align: center;
 }
+
+div.rec {
+    background-color: rgb(228, 174, 248);
+   border-radius: 20px;
+}
